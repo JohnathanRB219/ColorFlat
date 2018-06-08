@@ -164,7 +164,7 @@ hr{
 	color: #B4D4DF;
 }
 /*box 7 color black*/
-.footer{
+.black{
 	background-color: #3C3C3C;
 }
 .black h1{
@@ -176,6 +176,7 @@ hr{
 .black form{
 	color: #FFFFFF;
 }
+
 .black button{
 	margin-top:45px;
 	padding: 10px;
@@ -184,4 +185,7 @@ hr{
 	background-color: #FFFEFF;
 	border:none;
 	font-weight: bold;
+}
+.black h6{
+	float:right;
 }
