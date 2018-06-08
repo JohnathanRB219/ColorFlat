@@ -1,15 +1,116 @@
+/*First Box*/
 .top{
 	background-color: #A6D2DB;
 }
+nav{
+margin-left: 12%;
+}
 
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: bold;
+	font-size: 13px;
+}
+li:hover{
+	background-color: black;
+	color:  #A6D2DB;
+	cursor: pointer;
+	border-radius: 15px;
+	padding:2px;
+}
+.text{
+	font-size: 33px;
+	margin-top: 5%;
+
+}
+#special{
+	margin-left: 20px;
+	margin-right: 170px;
+	font-size: 18px;
+}
+.pound{
+	margin-right: 20px;
+	color: red;
+}
+.pl-10{
+	padding-left: 10%
+}
+.text{
+	text-align: center;
+	padding-left: 20%;
+}
+/*2nd box white*/
+.img{
+	padding-left: 30%;
+	margin-top: 10%;
+}
+/*box 3 color green*/
 .green{
 	background-color: #9AD3A6;
 }
+.green h1{
+	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.green p{
+	color: white;
+}
 
+#green{
+	padding-left: 10%;
+	color: white; 
+	margin-top: 30px;
+}
+li:hover{
+	background-color: white;
+	color: #9AD3A6;
+	border-radius: 15px;
+}
+.border{
+	border:1px white;
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 8px;
+	background-color: #FFFEFF;
+	border:none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/*box 4 grey*/
 .grey{
 	background-color: #F0F0F0;
 }
-
+.grey img{
+	padding: 70px;
+}
+.grey h1{
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.grey button{
+	margin-top: 0;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 8px;
+	background-color: #FFFEFF;
+	border:none;
+}
+/*box 5 pink*/
 .pink{
 	background-color: #E0B5C6;
 }
